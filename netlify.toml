@@ -2,6 +2,6 @@
     command = "echo 'build'"
     functions = "functions"
 [[redirects]]
-from = "/.netlify/functions/csp-report-post"
-to = "/api/csp-reports"
+from = "/api/csp-reports"
+to = "/.netlify/functions/csp-report-post"
 status = 301
