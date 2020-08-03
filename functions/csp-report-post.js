@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
         headers: {
             "Access-Control-Allow-Origin": "https://www.darrik.dev",
         },
-        status: 200,
+        statusCode: 200,
         body: "CSP data sent!"
     }
 }
