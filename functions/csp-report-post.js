@@ -13,9 +13,7 @@ exports.handler = async (event, context) => {
         userAction: event.UserAction,
         body: event.body
     })
-    console.log(event.body)
-
-    honeycombEvent.send();
+    await honeycombEvent.send();
     return {
         headers: {
             "Access-Control-Allow-Origin": "https://www.darrik.dev",
