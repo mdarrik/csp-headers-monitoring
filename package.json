@@ -5,5 +5,8 @@
   "repository": "https://github.com/mdarrik/csp-headers-monitoring.git",
   "author": "Darrik <30670444+mdarrik@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "libhoney": "^2.2.1"
+  }
 }
